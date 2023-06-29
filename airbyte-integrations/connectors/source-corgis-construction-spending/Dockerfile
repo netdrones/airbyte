@@ -30,6 +30,7 @@ RUN apk --no-cache add bash
 # copy payload code only
 COPY main.py ./
 COPY source_corgis_construction_spending ./source_corgis_construction_spending
+COPY construction_spending.csv ./construction_spending.csv
 
 ENV AIRBYTE_ENTRYPOINT "python /airbyte/integration_code/main.py"
 ENTRYPOINT ["python", "/airbyte/integration_code/main.py"]

@@ -1,4 +1,4 @@
-# Corgis Construction Spending Source
+# CORGIS Construction Spending Source
 
 This is the repository for the Corgis Construction Spending source connector, written in Python.
 For information about how to use this connector within Airbyte,
