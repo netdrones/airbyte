@@ -1,0 +1,22 @@
+data:
+  allowedHosts:
+    hosts:
+      - TODO # Please change to the hostname of the source.
+  registries:
+    oss:
+      enabled: false
+  connectorSubtype: api
+  connectorType: source
+  definitionId: 67aa1c25-2a66-4811-8eac-34f1030199e6
+  dockerImageTag: 0.1.0
+  dockerRepository: airbyte/source-corgis-construction-spending
+  githubIssueLabel: source-corgis-construction-spending
+  icon: corgis-construction-spending.svg
+  license: MIT
+  name: Corgis Construction Spending
+  releaseDate: TODO
+  releaseStage: alpha
+  documentationUrl: https://docs.airbyte.com/integrations/sources/corgis-construction-spending
+  tags:
+    - language:python
+metadataSpecVersion: "1.0"
